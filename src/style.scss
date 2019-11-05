@@ -1,0 +1,43 @@
+.base-container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+
+.header{
+    font-size: 25px;
+    font-display: "Open Sans", sans-serif;
+   
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    width: 50em;
+    img{
+        width:100%;       
+        height: 100%;
+    }
+}
+.form{
+    display: flex;
+    align-items: center;
+    .form-group{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+       
+        input{
+            font-family: 'Open Sans', sans-serif;
+            background-color: #F8F5F2;
+            padding: 50px 50px;
+                }
+            }
+        }    
+    }
+
+.footer{
+     margin-top: 3em;
+    }
